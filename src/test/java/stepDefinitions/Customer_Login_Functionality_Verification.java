@@ -37,7 +37,7 @@ public class Customer_Login_Functionality_Verification extends Base {
 		try {
 
 			String s = getText(By.xpath("//div//h1"));
-			soft.assertEquals("Employee Loginllll", s);
+			soft.assertEquals("Employee Loginlll", s);
 			soft.assertAll();
 		} catch (AssertionError e) {
 			// Log the assertion failure but continue with the test
